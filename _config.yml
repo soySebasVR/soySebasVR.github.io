@@ -1,25 +1,22 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
-locale:             en_US
+title:              Sebatian Vasquez
+bio:                'Esto es una bio'
+description:        "Blog de prueba"
+locale:             es_PE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
-# Comments
-disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            Sebas_VR
+instagram:          seb4s_vr
+github:             SebasVR18
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           Lima, PE
+phone:              999999999
+email:              sebvas18@gmail.com
 
 # Other
 background_image:   /images/bg.jpg
@@ -33,7 +30,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author:
+    author: Sebastian Vasquez Davila
 
 # Jekyll
 permalink:          /blog/:title/
