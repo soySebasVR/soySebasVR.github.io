@@ -1,5 +1,5 @@
 # Site
-title:              Sebatian Vasquez
+title:              Sebastian Vasquez
 bio:                'Esto es una bio'
 description:        "Blog de prueba"
 locale:             es_PE
@@ -10,12 +10,11 @@ url: "" # the base hostname & protocol for your site
 # Social
 analytics-id:       "default"
 twitter:            Sebas_VR
-instagram:          seb4s_vr
 github:             SebasVR18
+linkedin:           sebas-vr
 
 # personal
 location:           Lima, PE
-phone:              999999999
 email:              sebvas18@gmail.com
 
 # Other

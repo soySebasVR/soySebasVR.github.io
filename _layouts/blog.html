@@ -33,9 +33,10 @@
 
           <article class="post featured">
             <header class="major">
-              <h2><a href="#">Mi Blog</a></h2>
+              <h2><a href="#">Blog</a></h2>
               <p>
-				Los blogs, al igual que el resto de medios sociales, son canales de difusión de contenido que nos van a permitir conectar e interactuar con nuestra audiencia.
+				En este blog iré subiendo algunos temas de mi interés sin ningún tipo de compromiso.
+
 			  </p>
             </header>
 
@@ -55,14 +56,6 @@
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
 							</article>
-							{% if mod3 == 0 %}
-							<article>
-								<header>
-									<h2><a href="#">Sponsored</a></h2>
-								</header>
-
-							</article>
-							{% endif %}
 						{% endfor %}
 
 					</section>

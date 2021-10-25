@@ -7,21 +7,42 @@ sitemap:
     lastmod: 2021-08-31
     changefreq: weekly
 ---
-## Acerca de mí
+## Acerca de mí y esta página
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" />
 
-Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+Me llamo Sebastián. Soy estudiante, desarrollador de backend para una empresa, y a veces desarrollador freelance, depende como vaya mi día.
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+Creé esta página como una mánera de expresar algunas cosas que se me ocurran que puedan gustar a personas con gustos parecidos al mío. En este blog puede que no suba artículos que se parezcan los títulos pero yo creo que son interesantes. La imagen de la izquierda es un ejemplo de como poner imágenes con esta plantilla y se va a quedar ahí.
 
-### Content is Imortant
-<div class="box">
-  <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
-  </p>
-</div>
+### ¿Qué sé y tengo experiencia?
+- **Python**: Lenguaje de programación que más utilizo, me siento cómodo y me gusta. Es un lenguaje muy flexible con el que he trabajado, haciendo desde páginas web hasta funciones lambda en AWS.
+- **Amazon Web Services**: Servicio Cloud que me hicieron aprender y se puede hacer un millón de cosas, algo sencillo como solo tener un servidor Web en EC2 es muy fácil de iniciar y mantener de manera grauita pero la mejor son los servicios más avanzados, como montar tu propio cluster de Kubernetes.
+- **Linux**: (Explico con detalle más adelante) *Server Windows* < < < < *Server Linux*
+- **Docker**: Sistema que automatiza el despliegue de aplicaciones dentro de contenedores. Tuve que aprender de Docker porque no encontraba la manera de ingresar Ffmpeg en AWS lambda :(, cosa que ya pude :) pero aprendí un montón de sistemas operativos con esto y no me arrepiento para nada, mi último proyecto en Docker actualmente es montar Pi-Hole y Plex en Docker dentro de una Raspberry Pi 4.
+- **Git y Github**: Autoexplicativo. Solo tengo que decir que desde que aprendí Git cada vez que inicio un nuevo proyecto sé que debo iniciar con un "*git init*".
+- **Tecnologías Web**: He puesto tecnologías web(HTML, CSS y JavaScript) hasta el final debido a que no he trabajado mucho con esto, me considero más de backend pero sí sé un poco y me defiendo.
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+### Linux
 
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+<span class="image right"><img src="{{ "/images/neofetch.png" | absolute_url }}" alt="Ubuntu in Neofetch" />
+
+Esto debe de tener su apartado. Soy fan de muchas distribuciones de Linux, tengo experiencia usando:
+- Ubuntu (Actualmente en WSL y lo utilizo en sevidores)
+- Q4OS (Actualmente tengo una PC Familiar con este sistema)
+- Amazon Linux 2 (Servidores)
+- Arch (Manjaro, un tiempo)
+- Linux Mint (Un tiempo en una laptop limitada)
+
+A pesar que mi subreddit favorito es [r/unixporn](https://www.reddit.com/r/unixporn/) que es una delicia de ver, no logro encontrar un sabor que haga click conmigo, así que sigo estancado en Windows. He intentado cambiar en muchas ocasiones y me veo siempre volviendo por motivos que no logro solucionar.
+
+Para las personas como yo que les encanta Linux pero por algunos motivos sigue en Windows, existe **WSL**(Windows Subsystem for Linux). Que es una herramienta que permite tener un nucleo de Linux corriendo en una máquina virtual administrada por Windows. Esto es de lo primero que instalo cuando hago un formateo, me perdonarás Powershell(que ha mejorado mucho a comparación del CMD) pero tener una bash en Windows para mí ahora es indispensable.
+
+El único problema que tengo es lo que llega a gastar si no tienes cuidado, por defecto puede consumir hasta la mitad de tu RAM con un máximo de 16GB (que serían 8GB para WSL). Yo tengo 16GB y claro que está bien, pero sí esto lo juntas con Docker, que también necesita de WSL ya puede suponer un problema. Se puede llegar a limitar con el archivo *.wslconfig* en la carpeta de usuario, [más info aquí.](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-settings-with-wslconfig-and-wslconf)
+
+
+### ¿Qué quisiera aprender?
+- **Lenguaje de Programación**: Con Python me siento cómodo pero también quisiera aprender algo más, he estado pensando en *Go* o *Kotlin*.
+- **Kubernetes**: Sé lo básico y no lo he agarrado más porque voy bien solo con Docker pero sí debería hacer algún proyecto con esta tecnología.
+
+
