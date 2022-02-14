@@ -1,7 +1,7 @@
 # Site
-title:              Sebastian Vasquez
-bio:                'Esto es una bio'
-description:        "Blog de prueba"
+title:              SebasVR
+bio:                'Personal Page'
+description:        "Blog"
 locale:             es_PE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -10,12 +10,12 @@ url: "" # the base hostname & protocol for your site
 # Social
 analytics-id:       "default"
 twitter:            Sebas_VR
-github:             SebasVR18
-linkedin:           sebas-vr
+github:             soySebasVR
+linkedin:           soysebasvr
 
 # personal
 location:           Lima, PE
-email:              sebvas18@gmail.com
+email:              write.me@sebasvr.com
 
 # Other
 background_image:   /images/bg.jpg
